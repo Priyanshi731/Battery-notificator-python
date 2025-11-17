@@ -26,9 +26,9 @@ A lightweight Python-based desktop application that monitors your laptop’s bat
 
 ## 📂 Project Structure
 Battery-notificator/
-│── main.py          # Main application code
-│── icons/           # Battery icons (if used)
-│── README.md        # Project documentation
+│── main.py # Main application code
+│── icons/ # Battery icons (if used)
+│── README.md # Project documentation
 
 ---
 
@@ -37,15 +37,11 @@ Battery-notificator/
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/Priyanshi731/Battery-notificator-python.git
-
 cd Battery-notificator-python
+
 2. Install dependencies
 pip install psutil
 pip install win10toast
+
 3. Run the application
 python main.py
-## 📸 Screenshots
-Here is a preview of the Battery Notificator application:
-
-![App Screenshot](./Screenshot.png)
-
