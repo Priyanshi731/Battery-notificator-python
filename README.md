@@ -38,10 +38,23 @@ Battery-notificator/
 ```bash
 git clone https://github.com/Priyanshi731/Battery-notificator-python.git
 cd Battery-notificator-python
+```
 
-2. Install dependencies
+### 2. Install dependencies
+```bash
 pip install psutil
 pip install win10toast
+```
 
-3. Run the application
+### 3. Run the application
+```bash
 python main.py
+```
+---
+
+## 📸 Screenshots
+Here is a preview of the Battery Notificator application:
+
+![App Screenshot](./Screenshot.png)
+```
+
