@@ -1,23 +1,64 @@
-# Battery Notificator
+# Battery Notificator – Python Desktop Application
+A lightweight Python-based desktop application that monitors your laptop’s battery status in real time and provides smart notifications for low or full battery levels. Built with Tkinter, psutil, and win10toast, this tool ensures you never miss important battery alerts.
 
-This python script gives you a notification about your battery percentage of the device.
+---
 
-## Pre-requisites:
+## 🚀 Features
+- Real-time battery percentage monitoring  
+- Low battery and full charge notifications  
+- Windows toast notifications using win10toast  
+- Popup alerts using Tkinter  
+- Smooth and responsive UI with multithreading  
+- Gradient background and animated progress bar  
+- Simple, clean GUI interface  
+- Auto-refreshing battery status
 
-You will need to install python on your machine. You can download python from the python.org and install it.
-And a few other python package that you need to install are as:
- 
-    1. psutil
-        > pip install psutil
+---
 
-    2. pynotifier
-        > pip install py-notifier
+## 🛠 Tech Stack
+- **Python**  
+- **Tkinter** (GUI)  
+- **psutil** (battery monitoring)  
+- **win10toast** (Windows notifications)  
+- **threading** (smooth UI performance)
 
-    3. win10toast
-        > pip install win10toast
+---
 
-## How to run the Script:
-    python battery.py
+## 📂 Project Structure
+Battery-notificator/
+│── main.py # Main application code
+│── icons/ # Battery icons (if used)
+│── README.md # Project documentation
 
-## Authon Name:
-Bharat Gupta
+---
+
+## ▶️ How to Run the Project
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/Priyanshi731/Battery-notificator-python.git
+cd Battery-notificator-python
+```
+
+### 2. Install dependencies
+```bash
+pip install psutil
+pip install win10toast
+```
+
+### 3. Run the application
+```bash
+python main.py
+```
+---
+
+## 📸 Screenshots
+Here is a preview of the Battery Notificator application:
+
+![App Screenshot](./Screenshot.png)
+
+ ##Authon name
+```bash
+ Priyanshi kumari
+```
+
