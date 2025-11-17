@@ -44,4 +44,8 @@ pip install psutil
 pip install win10toast
 3. Run the application
 python main.py
+## 📸 Screenshots
+Here is a preview of the Battery Notificator application:
+
+![App Screenshot](./Screenshot.png)
 
